@@ -13,7 +13,7 @@ st.sidebar.title("Plant Disease system for Sustainable Agriculture")
 app_mode = st.sidebar.selectbox('select page',['Home','Disease Recognition'])
 
 from PIL import Image
-image_path = r"C:\Users\naman\OneDrive - MSFT\potato-diseases-prediction\Potato.jpg"
+image_path = "Potato.jpg"
 img = Image.open(image_path)
 st.image(img, use_column_width=True)
 
